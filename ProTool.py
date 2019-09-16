@@ -1,4 +1,4 @@
-"""Makes You Productive"""
+#Integrate text input 
    
 #Make new layout functional
 from tkinter import *
@@ -15,8 +15,8 @@ CDvalueLeft = timedelta()
 CDvalueTotal = timedelta()
 
 #Get File Pating data
-FilePath = os.path.abspath("ProTool_V1.py")
-ParentPath = FilePath.split('ProTool_V1.py')[0]
+FilePath = os.path.abspath("ProTool.ipynb")
+ParentPath = FilePath.split('ProTool.ipynb')[0]
 PLpath = ParentPath+"ProductivityLog.csv"
 
 #Pooled Functions
@@ -154,7 +154,7 @@ hlab = Label(TopFrame, text="Hour:")
 mlab = Label(TopFrame, text="Min:")
 slab = Label(TopFrame, text="Sec:")
 Spacer = Label(TopFrame, text=" ", background='light gray')
-
+  
 #Buttons
 BFTime = tk.Button(TopFrame, text ="Future Time", command = GetFuture)
 BTdiff = tk.Button(TopFrame, text ="Time Diff", command = GetTimeDiff)
@@ -197,8 +197,10 @@ FocusedBut.pack(side = LEFT)
 
 
 ReasonBox.pack(side = LEFT)
-
 #Closing off of window function
 label = Label(root)
+root.wm_attributes("-topmost", 1)#Keep window on top of everything
+root.iconbitmap(r'\\TDOTFS01\Group\Data Team\Abul\1. Code\O1_P1_ProTool\O1_P1_ProTool_PR_S_icon.ico')
+root.title('Protool_V2 by Abul Hassan Sheikh')
 root.mainloop()
 
