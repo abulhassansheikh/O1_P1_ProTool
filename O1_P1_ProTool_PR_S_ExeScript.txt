@@ -1,0 +1,2 @@
+pyinstaller --onefile --windowed --icon "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/O1_P1_ProTool_PR_S_icon.ico" "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/ProTool.py"
+pyinstaller --onefile --windowed "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/O1_P1_ProTool/ProTool.py"

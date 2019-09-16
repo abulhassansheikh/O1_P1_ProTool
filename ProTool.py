@@ -200,7 +200,7 @@ ReasonBox.pack(side = LEFT)
 #Closing off of window function
 label = Label(root)
 root.wm_attributes("-topmost", 1)#Keep window on top of everything
-root.iconbitmap(r'\\TDOTFS01\Group\Data Team\Abul\1. Code\O1_P1_ProTool\O1_P1_ProTool_PR_S_icon.ico')
+root.iconbitmap(r'//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/O1_P1_ProTool_PR_S_icon.ico')
 root.title('Protool_V2 by Abul Hassan Sheikh')
 root.mainloop()
 
