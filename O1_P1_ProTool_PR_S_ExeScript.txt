@@ -1,2 +1,10 @@
-pyinstaller --onefile --windowed --icon "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/O1_P1_ProTool_PR_S_icon.ico" "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/ProTool.py"
+Go to pathing: \\TDOTFS01\Group\Data Team\Abul\1. Code\O1_P1_ProTool
+Create folder O1_P1_ProTool
+Place Py script into that folder and name: ProTool.py
+Run Following Code:
+pyinstaller --onefile --windowed "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/O1_P1_ProTool2/ProTool.py"
+
+cd Abul/1. Code/O1_P1_ProTool/Test
+
 pyinstaller --onefile --windowed "//192.168.2.32/Group/Data Team/Abul/1. Code/O1_P1_ProTool/O1_P1_ProTool/ProTool.py"
+                                     
